@@ -1,0 +1,46 @@
+.Renovare {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.curved-box {
+    background: radial-gradient(circle, rgba(255, 213, 141, 1) 0%, rgba(254, 255, 247, 1) 100%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    margin: 50px auto;
+    border: 2px solid bisque;
+    text-align: left; /* Align paragraph text to the left */
+}
+
+.curved-box h1 {
+    font-family: 'Pacifico', cursive; /* Apply Pacifico font to h1 tag */
+    font-size: 36px; /* Adjust font size as needed */
+    color: darkorange; /* Dark orange color for h1 tag */
+    margin-top: 0; /* Remove default margin for h1 tag */
+}
+
+.curved-box p {
+    margin-bottom: 20px; /* Add some bottom margin to separate h1 and paragraph */
+}
+
+.try-it-out-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px; /* Added border-radius to the button */
+    font-size: 16px;
+    cursor: pointer;
+    display: block; /* Change button display property to block */
+    margin: 0 auto; /* Center the button using margin auto */
+    transition: 0.5s;
+}
+.try-it-out-button:hover{
+    background: rgb(255, 0, 149);
+}
+
+
+
